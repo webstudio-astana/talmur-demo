@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>ДЕМО — Talmur, барбершоп в Нуре, Астана</title>
+  <meta name="description" content="Демо-версия сайта барбершопа Talmur: ул. Кайым Мухамедханов,&nbsp;8, район Нура, Астана. Рейтинг 4.9, 811 оценок гостей.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Перейти к содержимому</a>
+
+  <div class="demo-bar" id="demoBar" role="note">
+    <strong>ДЕМО-ВЕРСИЯ</strong><span class="demo-bar__sep" aria-hidden="true"> · </span><span>фото, цены и номер для записи заменим на ваши</span><span class="demo-bar__sep" aria-hidden="true"> · </span><span>Webstudio Astana</span>
+  </div>
+  <div class="ribbon" aria-hidden="true"><span>ДЕМО</span></div>
+
+  <div class="infoline">
+    <div class="wrap infoline__in">
+      <span>ул. Кайым Мухамедханов,&nbsp;8 · Нура, Астана</span>
+      <span class="infoline__rate"><span class="star" aria-hidden="true">★</span> 4.9 · 811 оценок гостей</span>
+    </div>
+  </div>
+
+  <header class="header" id="header">
+    <div class="wrap header__in">
+      <a class="logo" href="#main" aria-label="Talmur, в начало страницы">
+        <span class="logo__mark" aria-hidden="true">T</span>
+        <span class="logo__text">Talmur</span>
+      </a>
+      <nav class="nav" aria-label="Разделы">
+        <a href="#uslugi">Услуги</a>
+        <a href="#ceny">Цены</a>
+        <a href="#adres">Адрес</a>
+      </nav>
+      <button class="btn btn--green btn--sm" type="button" data-demo data-msg="Здравствуйте! Хочу записаться в Talmur.">Записаться</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Первый экран -->
+    <section class="hero">
+      <div class="wrap hero__in">
+        <div class="hero__text">
+          <h1 class="hero__title">Talmur <span>барбершоп в Нуре</span></h1>
+          <p class="hero__lead">Мужские и детские стрижки на улице Кайым Мухамедханов,&nbsp;8, Астана.</p>
+          <div class="hero__actions">
+            <button class="btn btn--green" type="button" data-demo data-msg="Здравствуйте! Хочу записаться в Talmur.">Записаться</button>
+            <a class="btn btn--line" href="#uslugi">Услуги и цены</a>
+          </div>
+          <p class="hero__rating">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <span><b>4.9</b> · 811 оценок гостей</span>
+          </p>
+        </div>
+
+        <div class="duo">
+          <figure class="duo__photo duo__photo--big">
+            <img src="img/chair.jpg" width="1040" height="768" alt="Барберское кресло с зелёной кожаной обивкой у большого окна" fetchpriority="high">
+          </figure>
+          <figure class="duo__photo duo__photo--small">
+            <img src="img/mirror.jpg" width="928" height="1152" alt="Круглое зеркало в латунной раме и дубовая полка на зелёной стене" fetchpriority="high">
+          </figure>
+          <div class="mini">
+            <span class="mini__name">Мужская стрижка Barber</span>
+            <span class="mini__price">5 000–6 000 ₸</span>
+            <button class="mini__btn" type="button" data-demo data-msg="Здравствуйте! Хочу записаться в Talmur: мужская стрижка Barber (5 000–6 000 ₸).">Записаться <span aria-hidden="true">→</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Бегущая строка -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <span>Мужская стрижка Barber</span><i>✦</i><span>Стрижка «Цезарь»</span><i>✦</i><span>Детская стрижка</span><i>✦</i><span>Мужская стрижка Barber</span><i>✦</i><span>Стрижка «Цезарь»</span><i>✦</i><span>Детская стрижка</span><i>✦</i>
+        <span>Мужская стрижка Barber</span><i>✦</i><span>Стрижка «Цезарь»</span><i>✦</i><span>Детская стрижка</span><i>✦</i><span>Мужская стрижка Barber</span><i>✦</i><span>Стрижка «Цезарь»</span><i>✦</i><span>Детская стрижка</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- Услуги -->
+    <section class="section" id="uslugi" aria-labelledby="uslugiTitle">
+      <div class="wrap">
+        <div class="head reveal">
+          <h2 id="uslugiTitle">Три стрижки</h2>
+          <p>Нажмите на плитку, и услуга попадёт в чек визита ниже.</p>
+        </div>
+
+        <div class="tiles">
+          <button class="tile tile--a reveal" type="button" aria-pressed="false" data-id="barber">
+            <img src="img/clippers.jpg" width="1200" height="896" alt="Машинка для стрижки и насадки на дубовой полке" loading="lazy">
+            <span class="tile__body">
+              <span class="tile__name">Мужская стрижка Barber</span>
+              <span class="tile__price">5 000–6 000 ₸</span>
+              <span class="tile__state"><span class="tile__icon" aria-hidden="true">+</span><span class="tile__label">В чек</span></span>
+            </span>
+          </button>
+          <button class="tile tile--b reveal" type="button" aria-pressed="false" data-id="caesar">
+            <img src="img/scissors.jpg" width="1200" height="896" alt="Ножницы и деревянная расчёска на льняной ткани" loading="lazy">
+            <span class="tile__body">
+              <span class="tile__name">Стрижка «Цезарь»</span>
+              <span class="tile__price">5 000–6 000 ₸</span>
+              <span class="tile__state"><span class="tile__icon" aria-hidden="true">+</span><span class="tile__label">В чек</span></span>
+            </span>
+          </button>
+          <button class="tile tile--c reveal" type="button" aria-pressed="false" data-id="kids">
+            <img src="img/towels.jpg" width="1200" height="896" alt="Свёрнутые полотенца, помазок и чаша с пеной на каменной столешнице" loading="lazy">
+            <span class="tile__body">
+              <span class="tile__name">Детская стрижка</span>
+              <span class="tile__price">4 000 ₸</span>
+              <span class="tile__state"><span class="tile__icon" aria-hidden="true">+</span><span class="tile__label">В чек</span></span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Цены и чек -->
+    <section class="section section--sand" id="ceny" aria-labelledby="cenyTitle">
+      <div class="wrap prices">
+        <div class="prices__list reveal">
+          <h2 id="cenyTitle">Цены</h2>
+          <p class="muted">Отметьте услуги, и чек посчитает итог.</p>
+          <ul class="rows">
+            <li class="row" data-id="barber" data-name="Мужская стрижка Barber" data-min="5000" data-max="6000">
+              <span class="row__name">Мужская стрижка Barber</span>
+              <span class="row__price">5 000–6 000 ₸</span>
+              <button class="add" type="button" aria-pressed="false" aria-label="Добавить в чек: мужская стрижка Barber">+</button>
+            </li>
+            <li class="row" data-id="caesar" data-name="Мужская стрижка «Цезарь»" data-min="5000" data-max="6000">
+              <span class="row__name">Мужская стрижка «Цезарь»</span>
+              <span class="row__price">5 000–6 000 ₸</span>
+              <button class="add" type="button" aria-pressed="false" aria-label="Добавить в чек: мужская стрижка «Цезарь»">+</button>
+            </li>
+            <li class="row" data-id="kids" data-name="Детская стрижка" data-min="4000" data-max="4000">
+              <span class="row__name">Детская стрижка</span>
+              <span class="row__price">4 000 ₸</span>
+              <button class="add" type="button" aria-pressed="false" aria-label="Добавить в чек: детская стрижка">+</button>
+            </li>
+          </ul>
+        </div>
+
+        <aside class="check reveal" id="check" aria-labelledby="checkTitle">
+          <div class="check__head">
+            <h3 id="checkTitle">Чек визита</h3>
+            <button class="link-btn" type="button" id="checkClear" hidden>Очистить</button>
+          </div>
+          <p class="check__empty" id="checkEmpty">Пока пусто. Выберите стрижку плиткой выше или «+» в списке.</p>
+          <ul class="check__list" id="checkList"></ul>
+          <div class="check__total">
+            <span>Итого</span>
+            <strong id="checkSum" aria-live="polite">0 ₸</strong>
+          </div>
+          <p class="check__note" id="checkNote" hidden>Итог диапазоном: у мужских стрижек цена от 5&nbsp;000 до 6&nbsp;000&nbsp;₸.</p>
+          <button class="btn btn--green btn--wide" type="button" id="checkSend" data-demo disabled>Записаться с этим чеком</button>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Рейтинг -->
+    <section class="section" aria-labelledby="rateTitle">
+      <div class="wrap rate">
+        <figure class="rate__photo reveal">
+          <img src="img/mirror.jpg" width="928" height="1152" alt="Тёплый настенный светильник и круглое зеркало на зелёной стене" loading="lazy">
+        </figure>
+        <div class="rate__card reveal">
+          <h2 id="rateTitle">Гости ставят высокие оценки</h2>
+          <div class="rate__score">
+            <span class="rate__num">4.9</span>
+            <span class="rate__meta">
+              <span class="stars stars--lg" role="img" aria-label="Рейтинг 4.9 из 5">★★★★★</span>
+              <span>811 оценок гостей</span>
+            </span>
+          </div>
+          <p class="muted">Средняя оценка Talmur по оценкам гостей.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Адрес -->
+    <section class="section section--sand" id="adres" aria-labelledby="adresTitle">
+      <div class="wrap address">
+        <div class="address__info reveal">
+          <h2 id="adresTitle">Адрес</h2>
+          <p class="address__street">ул. Кайым Мухамедханов,&nbsp;8</p>
+          <p class="muted">Район Нура, Астана</p>
+          <div class="address__actions">
+            <a class="btn btn--green" href="https://2gis.kz/astana/firm/70000001056388655" target="_blank" rel="noopener noreferrer">Открыть в 2ГИС</a>
+            <button class="btn btn--line" type="button" data-demo data-msg="Здравствуйте! Хочу записаться в Talmur.">Записаться</button>
+          </div>
+        </div>
+        <div class="map reveal">
+          <iframe src="https://widgets.2gis.com/widget?type=firmsonmap&amp;options=%7B%22pos%22%3A%7B%22lat%22%3A51.140418%2C%22lon%22%3A71.382252%2C%22zoom%22%3A16%7D%2C%22opt%22%3A%7B%22city%22%3A%22astana%22%7D%2C%22org%22%3A%2270000001056388655%22%7D" title="Talmur на карте 2ГИС" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Подвал -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer__grid">
+        <figure class="footer__photo">
+          <img src="img/chair.jpg" width="1040" height="768" alt="Зелёное барберское кресло в светлом зале" loading="lazy">
+          <figcaption>Talmur <span>барбершоп в Нуре</span></figcaption>
+        </figure>
+        <div class="fcard">
+          <span class="fcard__icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></span>
+          <h3>Адрес</h3>
+          <p>ул. Кайым Мухамедханов,&nbsp;8<br>Нура, Астана</p>
+          <a class="fcard__link" href="#adres">Карта</a>
+        </div>
+        <div class="fcard">
+          <span class="fcard__icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span>
+          <h3>Рейтинг</h3>
+          <p><b>4.9</b> из 5<br>811 оценок гостей</p>
+        </div>
+        <div class="fcard fcard--green">
+          <span class="fcard__icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M4 20l1.3-3.8A8 8 0 1 1 8 19z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span>
+          <h3>Запись</h3>
+          <p>Через WhatsApp салона: сообщение будет готово по кнопке.</p>
+          <button class="btn btn--sand btn--sm" type="button" data-demo data-msg="Здравствуйте! Хочу записаться в Talmur.">Записаться</button>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 Talmur</span>
+        <span>Демо-сайт сделан Webstudio Astana</span>
+        <a href="#main">Наверх ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="fab" id="fab" type="button" data-demo data-msg="Здравствуйте! Хочу записаться в Talmur.">
+    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 20l1.3-3.8A8 8 0 1 1 8 19z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+    <span>Записаться</span>
+  </button>
+
+  <dialog class="modal" id="demoModal" aria-labelledby="modalTitle">
+    <p class="modal__tag">Демо-версия</p>
+    <h2 class="modal__title" id="modalTitle">В полной версии здесь откроется WhatsApp салона</h2>
+    <div class="modal__msg">
+      <span>Сообщение будет готово:</span>
+      <p id="modalMsg"></p>
+    </div>
+    <button class="btn btn--green" type="button" id="modalClose">Понятно</button>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
